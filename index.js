@@ -66,7 +66,7 @@ const selecionaDez = aleatorizarPerguntas.slice(0, 10);
 const quiz = selecionaDez.forEach((pergunta, index) => {
 
     do{
-        console.log(`\n ${index + 1} - ${pergunta.pergunta}`);
+        console.log(`\n${index + 1} - ${pergunta.pergunta}`);
         resposta = input.question("Digite a resposta (ano): ");
 
         if(resposta == pergunta.resposta){
